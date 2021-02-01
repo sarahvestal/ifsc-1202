@@ -1,0 +1,6 @@
+students_total = input("Enter number of students: ")
+apples_total = input("Enter total number of apples: ")
+each_student = int(apples_total) / int(students_total)
+remainder = int(apples_total) % int(students_total)
+print (int(each_student))
+print (int(remainder))
