@@ -3,4 +3,7 @@
 #Enter a number: 23
 #Last Digit: 3
 
-number = input("Enter a number: ")
+number = (int(input("Enter a number: ")))
+ldigit= number % 10
+print("Last Digit: {}".format(ldigit))
+
