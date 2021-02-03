@@ -28,4 +28,4 @@ secondsecond = input ("Second Second number is: ")
 secondtotal = (int(secondhour)) * 3600 + (int(secondminute)) *60 + (int(secondsecond))
 
 difference = (int(secondtotal - firsttotal))
-#print (difference)
+print (difference)
