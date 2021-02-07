@@ -7,4 +7,4 @@ n = int(input("Enter a two-digit number: "))
 first_digit = n // 10
 second_digit = n % 10
 swapped_number = (second_digit * 10) + first_digit
-print (swapped_number)
+print ("Swapped Number: {}".format(swapped_number))

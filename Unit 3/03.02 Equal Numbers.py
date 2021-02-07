@@ -7,3 +7,17 @@
 #Enter Second Number: 5
 #Enter Third Number: 10
 #2
+
+firstnum = int(input("Enter a first number: "))
+secondnum = int(input("Enter a second number: "))
+thirdnum = int(input("Enter a third number: "))
+if firstnum == secondnum == thirdnum:
+    print("3")
+elif firstnum == secondnum:
+    print("2")
+elif firstnum == thirdnum:
+    print("2")
+elif secondnum == thirdnum:
+    print("2")
+else:
+    print("0")

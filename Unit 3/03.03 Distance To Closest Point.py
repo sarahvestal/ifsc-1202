@@ -4,3 +4,13 @@
 #Enter Point B: 35
 #Enter Point C: 30
 #20
+
+firstnum = int(input("Enter Point A: "))
+secondnum = int(input("Enter Point B: "))
+thirdnum = int(input("Enter Point C: "))
+distanceAB = secondnum - firstnum
+distanceAC = thirdnum - firstnum
+if distanceAB < distanceAC:
+    print(distanceAB)
+if distanceAB >= distanceAC:
+    print(distanceAC)

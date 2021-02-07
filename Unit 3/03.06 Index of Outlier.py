@@ -4,3 +4,13 @@
 #Enter Second Number: 5
 #Enter Third Number: 10
 #2
+
+firstnumber = int(input("Enter the first two-digit integer: "))
+secondnumber = int(input("Enter the second two-digit integer: "))
+thirdnumber = int(input("Enter the third two-digit integer: "))
+if firstnumber == secondnumber:
+    print(thirdnumber)
+elif firstnumber == thirdnumber:
+    print(secondnumber)
+elif secondnumber == thirdnumber:
+    print(firstnumber)
